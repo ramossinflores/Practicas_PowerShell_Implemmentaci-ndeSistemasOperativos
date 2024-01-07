@@ -6,9 +6,8 @@ En el departamento de formación de nuestra empresa están cansados de gestionar
 Necesitan un programa que se llame `creaDirs.ps1` el cual aceptará cuatro argumentos: el primero será las cuatro últimas cifras del DNI del alumno, el segundo será su nombre, y los argumentos tercero y cuarto serán los apellidos. El programa creará en `C:\` la siguiente estructura de carpetas y archivos:
 
 ```
-C:\AlumnoXXXX
-│   Matrícula.txt
-└─── Otros archivos y carpetas
+![Estructura de carpetas Gestor Automático Alumno](https://ejemplo.com/ejemplo.png)
+
 ```
 
 Las `XXXX` simbolizan las cuatro cifras del DNI del alumno introducidas, es decir podría ser Alumno1234, Alumno5988, etc... Dentro del archivo `Matrícula.txt` se deberá escribir el nombre y los apellidos del estudiante, y en la siguiente línea la fecha de creación (fecha actual), así:

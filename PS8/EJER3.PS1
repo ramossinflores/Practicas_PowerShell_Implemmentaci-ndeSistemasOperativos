@@ -2,51 +2,19 @@
 $mes= Read-Host Escribe un mes
 do{
         switch($mes){
- "enero"{
+ ({($mes -eq "enero") -or ($mes -eq "febrero") -or ($mes -eq "marzo")}){
             "Es invierno";
             break
          }
- "febrero"{
-            "Es invierno";
-            break
-         }
- "marzo"{
-            "Es invierno";
-            break
-         }
- "abril"{
+({($mes -eq "abril") -or ($mes -eq "mayo") -or ($mes -eq "junio")}){
             "Es primavera";
             break
          }
- "mayo"{
-            "Es primavera";
-            break
-         }
- "junio"{
-            "Es primavera";
-            break
-         }
- "julio"{
+({($mes -eq "junio") -or ($mes -eq "julio") -or ($mes -eq "agosto")}){
             "Es verano";
             break
          }
- "agosto"{
-            "Es verano";
-            break
-         }
- "septiembre"{
-            "Es verano";
-            break
-         }
- "octubre"{
-            "Es otoño";
-            break
-         }
- "noviembre"{
-            "Es otoño";
-            break
-         }
- "diciembre"{
+({($mes -eq "octubre") -or ($mes -eq "noviembre") -or ($mes -eq "diciembre")}) {
             "Es otoño";
             break
          }
